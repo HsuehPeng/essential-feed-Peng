@@ -161,7 +161,7 @@ class CodableFeedStoreTests: XCTestCase {
 		return deletionError
 	}
 	
-	private func expect(_ sut: FeedStore, toRetrieveTwice expectedResult: RetrieveCachedFeedResult, file: StaticString = #file, line: UInt = #line) {
+	private func expect(_ sut: FeedStore, toRetrieveTwice expectedResult: RetrieveCachedFeedResult, file: StaticString = #filePath, line: UInt = #line) {
 		expect(sut, toRetrieve: expectedResult, file: file, line: line)
 		expect(sut, toRetrieve: expectedResult, file: file, line: line)
 	}
