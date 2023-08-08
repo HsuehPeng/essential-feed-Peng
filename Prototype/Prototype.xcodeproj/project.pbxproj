@@ -12,6 +12,7 @@
 		B8F17E3A2A81F8B9003198D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8F17E382A81F8B9003198D9 /* Main.storyboard */; };
 		B8F17E3C2A81F8BA003198D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8F17E3B2A81F8BA003198D9 /* Assets.xcassets */; };
 		B8F17E3F2A81F8BA003198D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8F17E3D2A81F8BA003198D9 /* LaunchScreen.storyboard */; };
+		B8F17E472A820462003198D9 /* FeedViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F17E462A820462003198D9 /* FeedViewControllerTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B8F17E3B2A81F8BA003198D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8F17E3E2A81F8BA003198D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8F17E402A81F8BB003198D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8F17E462A820462003198D9 /* FeedViewControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewControllerTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				B8F17E322A81F8B9003198D9 /* AppDelegate.swift */,
 				B8F17E342A81F8B9003198D9 /* SceneDelegate.swift */,
 				B8F17E382A81F8B9003198D9 /* Main.storyboard */,
+				B8F17E462A820462003198D9 /* FeedViewControllerTableViewController.swift */,
 				B8F17E3B2A81F8BA003198D9 /* Assets.xcassets */,
 				B8F17E3D2A81F8BA003198D9 /* LaunchScreen.storyboard */,
 				B8F17E402A81F8BB003198D9 /* Info.plist */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8F17E332A81F8B9003198D9 /* AppDelegate.swift in Sources */,
+				B8F17E472A820462003198D9 /* FeedViewControllerTableViewController.swift in Sources */,
 				B8F17E352A81F8B9003198D9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
